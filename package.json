@@ -1,0 +1,37 @@
+{
+  "name": "react-family-tree-example",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@reach/dialog": "0.10.0",
+    "axios": "0.19.2",
+    "clsx": "1.1.0",
+    "formik": "2.1.4",
+    "pinch-zoom-pan": "2.0.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-family-tree": "1.3.0",
+    "react-image-fallback": "8.0.0",
+    "react-image-lightbox": "5.1.1",
+    "react-images": "1.1.2",
+    "react-scripts": "3.0.1",
+    "react-toastify": "5.5.0"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

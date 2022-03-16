@@ -1,0 +1,21 @@
+.footer {
+  direction: rtl;
+  display: grid;
+  grid-template-columns: 1fr 130px 160px;
+  grid-template-rows: 100px 16px;
+  padding: 8px;
+  grid-gap: 8px;
+  align-items: center;
+}
+
+.help {
+  display: contents;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.contact {
+  justify-self: end;
+  grid-area: 2 / 1 / 2 /4;
+  color: #404040;
+}

@@ -1,0 +1,52 @@
+.gallery {
+  overflow: hidden;
+  margin-left: -6px;
+  margin-right: -6px;
+  width: 100%;
+}
+
+.image {
+  background-color: #eee;
+  box-sizing: border-box;
+  float: right;
+  margin: 6px;
+  overflow: hidden;
+  padding-bottom: 12px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.image:hover {
+  opacity: 0.9;
+}
+
+.image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.container {
+  display: grid;
+}
+
+.lightbox {
+  z-index: initial;
+}
+
+.lightbox a {
+  color: #fff;
+}
+
+:global(.ril__toolbar) {
+  direction: rtl;
+  padding-right: 6px;
+}
+
+:global(.ril__captionContent) {
+  text-align: start;
+  width: 800px;
+  margin: 0 auto;
+  direction: rtl;
+}
